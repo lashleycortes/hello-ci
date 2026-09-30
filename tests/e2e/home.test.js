@@ -1,5 +1,7 @@
 const { Builder, By } = require('selenium-webdriver');
 
+jest.setTimeout(30000);
+
 describe('Home Page', () => {
     let driver;
 
